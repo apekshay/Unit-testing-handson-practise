@@ -37,7 +37,7 @@ describe('Loan EMI details', () => {
   })
 
   it('check render heading', async()=>{
-   expect(el.shadowRoot.querySelector('').textContent).to.equal('EMI details');
+   expect(el.shadowRoot.querySelector('h2').textContent).to.equal('EMI details');
   })
 
   it('check emit data in storage', ()=>{
